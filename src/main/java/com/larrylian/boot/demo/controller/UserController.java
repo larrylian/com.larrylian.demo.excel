@@ -16,9 +16,16 @@ import java.util.List;
 public class UserController {
     @Resource
     UserService userService;
+
+    /**
+     * 获取所有用户列表
+     * @return
+     */
     @RequestMapping("user/all")
     @ResponseBody
     public List<User> findAll() {
         return userService.findAll();
     }
+
+
 }

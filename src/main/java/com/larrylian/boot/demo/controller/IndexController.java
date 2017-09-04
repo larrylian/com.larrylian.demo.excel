@@ -16,6 +16,11 @@ public class IndexController {
     public String index() {
         return "index";
     }
+
+    /**
+     * json测试接口
+     * @return
+     */
     @RequestMapping("hello")
     @ResponseBody
     public Map<String, String> helloJson(){
