@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * Created by Larry on 2017/9/4
  */
-@Repository
+
 public interface UserDao {
     public List<User> findAll();
 }
